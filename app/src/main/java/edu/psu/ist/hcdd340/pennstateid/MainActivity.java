@@ -127,7 +127,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 /*
             // currently the president's profile is being shown
-            // we will replace it with the dean's profilemageView idHolderimage = findViewById(R.id.id_holder_image);
+            // we will replace it with the dean's profile
+            ImageView idHolderimage = findViewById(R.id.id_holder_image);
             idHolderimage.setImageResource(R.drawable.ist_dean);
 
             // find Label
