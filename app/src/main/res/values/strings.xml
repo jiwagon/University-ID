@@ -28,4 +28,8 @@
     <string name="ist_stud_id_number">9 9345 6789</string>
     <string name="ist_stud_position_description">STUDENT/HCDD</string>
 
+    <!--Login page-->
+    <string name="login_button">login</string>
+    <string name="email_label">Email:</string>
+    <string name="password_label">Password:</string>
 </resources>
