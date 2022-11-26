@@ -24,12 +24,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Button prev = findViewById(R.id.button_prev);
         prev.setOnClickListener(this);
-
     }
 
     // implement the OnClickListener interface - see line 9
     // Override the onClick function
-    // the function that will be called each time the event is triggerd
+    // the function that will be called each time the event is triggered
 
     private static final String TAG = "ACTIVITY_4";
 
@@ -52,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // What's the current profile now?
         TextView idNumberTextView = findViewById(R.id.id_number);
 
-        // What's the current profile being diplayed now?
+        // What's the current profile being displayed now?
         String currentProfileId = idNumberTextView.getText().toString();
         // debug purpose
         Log.d(TAG, "Current profile id: " + currentProfileId);

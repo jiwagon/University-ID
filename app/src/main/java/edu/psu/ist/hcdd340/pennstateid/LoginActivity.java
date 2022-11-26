@@ -9,7 +9,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
 
     private final static String TAG = "LOG_IN";
