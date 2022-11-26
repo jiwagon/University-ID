@@ -1,6 +1,8 @@
 package edu.psu.ist.hcdd340.pennstateid;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -37,5 +39,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         EditText passwordEditText = findViewById(R.id.editText_password);
         String password = passwordEditText.getText().toString();
         Log.d(TAG, "Password entered: " + password);
+
+        setContentView(R.layout.activity_main); // Link to activity_main.xml after login
+        // Problem: It is only linked to the layout, not the Activity
     }
 }

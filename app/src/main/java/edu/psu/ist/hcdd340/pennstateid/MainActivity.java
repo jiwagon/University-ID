@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-    private void showProfile(int profileImageId, String firstname, String lastname,
+    public void showProfile(int profileImageId, String firstname, String lastname,
                              String machineId, String idNumber, String positionDescription) {
 
         // Update profile image
